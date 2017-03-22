@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: KindBoost
-email: kindboost@gmail.com
+email: kb.listens@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Need to talk to someone? KindBoost is a peer-to-peer listening support service on topics such as depression, loneliness and anxiety.
   Be part of the supportive community today!

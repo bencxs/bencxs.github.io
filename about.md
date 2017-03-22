@@ -14,4 +14,4 @@ This site offers you one thing: The need to chat with others who are willing to 
 
 ## Contact
 
-For any enquiries about the site or collaboration opportunities, you may contact us at []()
+For any enquiries about the site or collaboration opportunities, you may contact us at [kb.listens@gmail.com](kb.listens@gmail.com)
