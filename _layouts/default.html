@@ -2,6 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <body>
 
@@ -13,10 +14,53 @@
       </div>
     </main>
 
-    {% include footer.html %}
+    <!--{% include footer.html %}-->
+
     {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">KindBoost</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              KindBoost
+            
+            </li>
+            
+            <li><a href="mailto:kb.listens@gmail.com">kb.listens@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+            {% if site.facebook_username %}
+            <li>
+              <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                <i class="fa fa-facebook"></i> Facebook
+              </a>
+            </li>
+            {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Need to talk to someone? KindBoost is a peer-to-peer listening support service on topics such as depression, loneliness and anxiety. Be part of the supportive community today!
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
   </body>
 
 </html>
